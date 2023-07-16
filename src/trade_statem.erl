@@ -92,9 +92,6 @@ ask_commit(OtherPid) ->
 do_commit(OtherPid) ->
     gen_statem:call(OtherPid, do_commit).
 
-notify_cancel(OtherPid) ->
-    gen_statem:call(OtherPid, cancel).
-
 -record(state, {
     name = "",
     other,
