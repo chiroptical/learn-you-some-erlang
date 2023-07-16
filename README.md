@@ -3,7 +3,7 @@ reminder
 
 Working through: https://learnyousomeerlang.com
 
-Current section: https://learnyousomeerlang.com/building-applications-with-otp
+Current section: https://learnyousomeerlang.com/building-otp-applications aka Chapter 19
 
 Notes
 ---
