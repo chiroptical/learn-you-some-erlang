@@ -3,7 +3,9 @@ reminder
 
 Working through: https://learnyousomeerlang.com
 
-Current section: https://learnyousomeerlang.com/building-otp-applications aka Chapter 19
+Current section: Chapter 22, Setting up release for processquest
+
+TODO: Need to rebuild the release with the crypto changes
 
 Notes
 ---
