@@ -3,9 +3,7 @@ reminder
 
 Working through: https://learnyousomeerlang.com
 
-Current section: Chapter 22, Setting up release for processquest
-
-TODO: Need to rebuild the release with the crypto changes
+Current section: Chapter 22, Making Process Quest Better
 
 Notes
 ---
