@@ -1,0 +1,27 @@
+digraph {
+  subgraph cluster_0 {
+    label = "Transitions"
+    off -> on // turn the vending machine on
+    on -> off // turn the vending machine off
+  }
+
+  subgraph cluster_1 {
+    label = "Events"
+    flip_switch
+    insert_coin
+    request_soda // either gets a soda, or tells you how much a soda is
+    request_coins
+  }
+
+  subgraph cluster_2 {
+    label = "State"
+    coins // we only need some nickels in the machine to start
+    inserted_coins // coins inserted by customer
+    // Note: we only have to make change if someone uses quarters and dimes
+    //       may end up with $1.55 in the machine, need to dispense a nickel
+    // Note: the vending machine should display a light if it can't make change
+  }
+}
+
+// A soda costs 1.50
+// 25, 10, 5

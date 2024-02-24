@@ -10,4 +10,7 @@ diagrams:
 lint:
 	rebar3 dialyzer
 
-.PHONY: format shell diagrams lint
+test:
+	rebar3 eunit
+
+.PHONY: format shell diagrams lint test
